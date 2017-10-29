@@ -1,0 +1,326 @@
+UrbanArea,COLIndex,Housing
+"New, York, (Manhattan), NY",216.7,386.7
+"New, York, (Brooklyn), NY",181.7,317.8
+"Honolulu, HI",165.7,249
+"San, Francisco, CA",164,281
+"New, York, (Queens), NY",159,230.8
+"San, Jose, CA",156.1,260.3
+"Stamford, CT",146.9,212.6
+"Truckee-Nevada, County, CA",146.9,208.3
+"Orange, County, CA",146.4,242.8
+"Nassau, County, NY",145.7,206.7
+"Washington-Arlington-Alexandria, DC-VA",140.1,226.4
+"Oakland, CA",139.1,198.8
+"Fairbanks, AK",137.4,148.5
+"Juneau, AK",136.5,165.7
+"Los, Angeles-Long, Beach, CA",136.4,207.1
+"Framingham-Natick, MA",134.5,177.2
+"Boston, MA",132.5,152.7
+"San, Diego, CA",132.3,194.4
+"Bergen-Passaic, NJ",131.3,174
+"Bethesda-Gaithersburg-Frederick, MD",130.5,184.2
+"Newark-Elizabeth, NJ",129.7,168.5
+"Kodiak, AK",128.7,127.8
+"Anchorage, AK",128.4,142.9
+"Philadelphia, PA",126.5,141.3
+"Middlesex-Monmouth, NJ",124.8,154.1
+"Glenwood, Springs, CO",124,169
+"Providence, RI",123.3,129
+"New, Haven, CT",122.1,134.9
+"Hartford, CT",121.8,137.8
+"Palm, Springs, CA",121.8,154.2
+"Seattle, WA",121.4,140.3
+"Burlington-Chittenden, Co, VT",120.5,138.7
+"Dutchess, County, NY",120.4,141.3
+"Baltimore, MD",119.4,155.4
+"Fresno, CA",117.3,131.2
+"Chicago, IL",116.9,134.8
+"Manchester, NH",116.8,117
+"Portland, ME",116.5,143
+"Sacramento, CA",116.2,135.7
+"Fort, Lauderdale, FL",115.7,144
+"Flagstaff, AZ",114.9,149.3
+"Hilton, Head, Island, SC",114.1,119.8
+"Bellingham, WA",113,135.9
+"Chapel, Hill, NC",113,127
+"Riverside, City, CA",112.5,136.3
+"Glens, Falls, NY",112.3,105.9
+"Lake, Havasu, City, AZ",111.8,139.3
+"Hampton, Roads-SE, Virginia, VA",111.7,121.9
+"Everett, WA",111.3,128.1
+"Portland, OR",111.3,130.8
+"Minneapolis, MN",111,116.8
+"Pittsfield, MA",110.6,96.2
+"Gunnison, CO",110,134.5
+"St., Paul, MN",110,112.9
+"Eugene, OR",109.8,132.3
+"Los, Alamos, NM",109.7,128.1
+"Tacoma, WA",109.5,116.6
+"Albany, NY",108.1,112.6
+"Dare, County, NC",107.3,116.7
+"Charlottesville, VA",107,122.6
+"Lancaster, PA",106.8,118.4
+"Miami-Dade, County, FL",106,107.7
+"Beaufort, SC",105.2,103.5
+"Wilmington, DE",105.2,102
+"Richmond, VA",104.5,103.2
+"Olympia, WA",104.1,102.2
+"Prescott-Prescott, Valley, AZ",103.7,118.1
+"Bakersfield, CA",103.4,98.4
+"Fitchburg-Leominster, MA",103.3,97.1
+"Denver, CO",103.2,107.5
+"Ithaca, NY",102.8,104.4
+"Winchester, VA-WV",102.3,94.5
+"Joliet-Will, County, IL",102.2,102.3
+"York, County, PA",102.1,106
+"Bozeman, MT",102,101.8
+"Las, Vegas, NV",101.9,94.1
+"Milwaukee-Waukesha, WI",101.9,112.7
+"Sarasota, FL",101.5,102.9
+"Syracuse, NY",101.5,91.4
+"Sheboygan, WI",101.4,97.5
+"Yuma, AZ",101.2,96.4
+"Asheville, NC",101.1,97.8
+"Reno-Sparks, NV",101.1,101.5
+"Cleveland, OH",101,93.3
+"Phoenix, AZ",100.7,90.4
+"Williamsport-Lycoming, Co, PA",100.7,96.3
+"Las, Cruces, NM",100.6,104.4
+"Morgantown, WV",100.6,111.9
+"Salt, Lake, City, UT",100.6,108
+"Cheyenne, WY",100.5,107.9
+"Columbia, SC",100.4,82.3
+Akron OH,100.2,99.7
+"Plattsburgh, NY",100.1,95.1
+"Rochester, NY",100,94.2
+"Minot, ND",99.9,95.9
+"Gainesville, FL",99.8,101.8
+"Dover, DE",99.7,90.9
+"Harrisburg, PA",99.7,91.5
+"Detroit, MI",99.4,95.2
+"Missoula, MT",99.4,92.2
+"Panama, City, FL",99.4,101.5
+"Arlington, TX",99.3,89.4
+"Lafayette, LA",99.2,110.1
+"Montgomery, AL",99.2,96
+"Rochester, MN",99.2,91.1
+"Auburn-Opelika, AL",98.9,90.2
+"Kalispell, MT",98.8,95.5
+"Wilmington, NC",98.8,89.7
+"Greenville, NC",98.5,84.4
+"Binghamton, NY",98.4,92.6
+"Charleston-N, Charleston, SC",98.3,92.6
+"Grand, Junction, CO",98.3,105.4
+"St., Cloud, MN",98.3,80.7
+"Lafayette, IN",98.2,82.4
+"Raleigh, NC",98.2,88.8
+"Sierra, Vista, AZ",97.9,99.7
+"Kansas, City, MO-KS",97.8,89.2
+"Orlando, FL",97.8,85.4
+"Camden, SC",97.4,87.8
+"Lake, Charles, LA",97.4,103.4
+"Plano, TX",97.4,85.2
+"Vero, Beach-Indian, River, FL",97.4,83.5
+"Boise, ID",97.2,84
+"Burlington, IA",97,94.6
+"Farmington, NM",97,97.1
+"Harrisonburg, VA",97,96.8
+"Laramie, WY",97,102.3
+"Slidell-St., Tammany, Parish, LA",97,101
+"Champaign-Urbana, IL",96.9,90.8
+"Jackson, MS",96.9,94
+"Ames, IA",96.8,104.8
+"Davenport-Moline-Rock, Is, IA-IL",96.8,98.7
+"Durham, NC",96.6,86.8
+"Jacksonville, NC",96.5,88
+"Little, Rock-North, Little, Rock, AR",96.5,92.2
+"Tucson, AZ",96.5,91.9
+"Wausau, WI",96.5,89.6
+"Peoria, IL",96.3,95
+"Sumter, SC",96.3,90.2
+"Tyler, TX",96.3,91.5
+"Evansville, IN",96.2,86.3
+"Iowa, City, IA",96.2,97.3
+"Janesville, WI",96.2,91.3
+"Staunton-Augusta, County, VA",96.2,93.7
+"Baton, Rouge, LA",96.1,102.2
+"Dubuque, IA",95.9,86.5
+"Hammond, LA",95.9,95.8
+"Roswell, NM",95.9,82.9
+"St., George, UT",95.9,94.2
+"Bradenton, FL",95.8,90.2
+"Buffalo, NY",95.8,97.4
+"Yakima, WA",95.8,86.9
+"Beaumont, TX",95.7,95.9
+"San, Antonio, TX",95.7,95.3
+"Atlanta, GA",95.6,90.7
+"Cape, Coral-Fort, Myers, FL",95.6,87.5
+"Logan, UT",95.6,68.4
+"Austin, TX",95.5,85.1
+"Quincy, IL",95.5,94.5
+"Carlsbad, NM",95.4,86.6
+"Troy-Miami, County, OH",95.4,83.9
+"Bismarck-Mandan, ND",95.3,91.5
+"Shreveport-Bossier, City, LA",95.3,93.5
+"Fayetteville, NC",95.2,82.5
+"Myrtle, Beach, SC",95.2,78.4
+"Alexandria, LA",95.1,92.7
+"Green, Bay, WI",95.1,83.5
+"Lynchburg, VA",95.1,92.7
+"Rio, Rancho, NM",95.1,90.5
+"Blacksburg, VA",95,94.9
+"Clarksburg, WV",95,93.1
+"Manhattan, KS",95,98.7
+"Marietta, GA",94.8,84.7
+"San, Marcos, TX",94.8,100.1
+"Vancouver, WA",94.8,82.2
+"Burlington, NC",94.6,86
+"Lawrence, KS",94.6,96
+"Tuscaloosa, AL",94.6,80.6
+"Fort, Wayne-Allen, County, IN",94.4,89.3
+"Norman, OK",94.4,88.7
+"Findlay, OH",94.3,77
+"Marshfield, WI",94.2,92.2
+"Roanoke, VA",94.1,92.2
+"Sioux, Falls, SD",94.1,86.6
+"Valdosta, GA",94.1,85.3
+"Elkhart-Goshen, IN",94,92.7
+"Hutchinson, KS",94,92.3
+"Spokane, WA",93.9,85.7
+"Cincinnati, OH",93.8,81.9
+"Hot, Springs, AR",93.8,85.3
+"Kinston, NC",93.8,76.1
+"Lawton, OK",93.8,87
+"Eau, Claire, WI",93.7,90.5
+"Lexington-Buena, Vista-Rockbridge, VA",93.7,97.8
+"Enid, OK",93.6,77.4
+"Savannah, GA",93.5,84
+"Cleveland, TN",93.4,87.7
+"Hastings, NE",93.4,89.1
+"Appleton, WI",93.3,81.8
+"Indiana, County, PA",93.3,84.2
+"Augusta-Aiken, GA-SC",93.2,79.4
+"Charlotte, NC",93.2,79.5
+"Midland, TX",93.2,89.2
+"Lima, OH",93.1,69.8
+"Clarksville, TN",93,86
+"Galesburg, IL",93,80
+"Mankato, MN",93,76.5
+"Hickory, NC",92.9,91.3
+"Jacksonville, FL",92.9,80
+"Jefferson, City, MO",92.9,78.5
+"Johnstown, PA",92.9,79.4
+"Colorado, Springs, CO",92.8,92
+"Lexington, KY",92.8,88.7
+"Charleston, WV",92.7,89.3
+"Fargo-Moorhead, ND-MN",92.7,87.4
+"Mobile, AL",92.7,80.4
+"Monroe, LA",92.7,83
+"Kennewick-Richland-Pasco, WA",92.6,85.9
+"Wooster, OH",92.6,72.1
+"Nacogdoches, TX",92.5,83.3
+"Lufkin, TX",92.4,83.4
+"Rockford, IL",92.4,74.7
+"San, Angelo, TX",92.4,84
+"Tampa, FL",92.4,84.7
+"Winston-Salem, NC",92.4,82.9
+"Pascagoula, MS",92.3,84.3
+"St., Joseph, MO",92.3,86.5
+"Houston, TX",92.2,82
+"Erie, PA",92.1,91.1
+"Fayetteville, AR",92.1,77.3
+"Marion-McDowell, County, NC",92.1,87.9
+"Cedar, Rapids, IA",92,79.1
+"Columbus, OH",92,86.2
+"Dallas, TX",91.9,70.7
+"Hattiesburg, MS",91.9,74.6
+"South, Bend, IN",91.9,84.2
+"Anderson, SC",91.8,77
+"Columbia, MO",91.8,81.4
+"Topeka, KS",91.8,84
+"Wichita, KS",91.8,83.6
+"Oklahoma, City, OK",91.7,86
+"Waterloo-Cedar, Falls, IA",91.7,89.6
+"Edmond, OK",91.6,82.8
+"Pittsburgh, PA",91.5,74.4
+"Twin, Falls, ID",91.5,81.4
+"Conroe, TX",91.4,80.1
+"Dayton, OH",91.4,74.5
+"Decatur, IL",91.4,88.2
+"Weatherford, TX",91.4,79.7
+"Anniston-Calhoun, County, AL",91.2,74.8
+"Huntsville, AL",91.2,78.7
+"Kalamazoo, MI",91.2,81.3
+"Chattanooga, TN",91.1,84
+"Danville, IL",91.1,74.2
+"Fort, Worth, TX",91.1,78
+"Loveland, CO",91,79.3
+"Muncie, IN",91,80.3
+"Des, Moines, IA",90.9,89.6
+"Morristown, TN",90.9,81.5
+"Odessa, TX",90.9,88.1
+"Birmingham, AL",90.8,73.2
+"Corpus, Christi, TX",90.8,79.6
+"Richmond, IN",90.8,84.6
+"Bowling, Green, KY",90.7,78.2
+"Grand, Rapids, MI",90.7,77.6
+"Seguin, TX",90.7,78.5
+"Idaho, Falls, ID",90.6,78
+"El, Paso, TX",90.4,86
+"St., Louis, MO-IL",90.4,74.6
+"Youngstown-Warren, OH",90.4,77.7
+"Greenville, SC",90.3,72.9
+"Florence, AL",90.2,79.6
+"Jackson-Madison, County, TN",90.2,74.2
+"Albany, GA",90.1,74.8
+"Stillwater, OK",90.1,81.2
+"Ponca, City, OK",90,76.6
+"Dothan, AL",89.8,80.1
+"Garden, City, KS",89.7,79.9
+"Round, Rock, TX",89.7,78
+"Martinsburg-Berkeley, County, WV",89.6,82.7
+"Amarillo, TX",89.5,89.4
+"Hays, KS",89.4,78.8
+"Knoxville, TN",89.4,82
+"Brazoria, County, TX",89.3,75.8
+"Dodge, City, KS",89.3,77.6
+"Decatur-Hartselle, AL",89.2,74.2
+"Thomasville-Lexington, NC",89.2,77.2
+"Lubbock, TX",89.1,80.4
+"Mason, City, IA",89.1,73.1
+"Jonesboro, AR",88.9,75.1
+"Nashville-Franklin, TN",88.9,71.3
+"Paris, TX",88.9,80
+"Waco, TX",88.9,88.5
+"Joplin, MO",88.8,75.9
+"Cedar, City, UT",88.7,73.9
+"Douglas, GA",88.6,68.5
+"Dyersburg, TN",88.6,73.8
+"Ashland, OH",88.5,72.1
+"Tulsa, OK",88.4,66.5
+"Americus, GA",88.3,71
+"Omaha, NE",88.3,79.3
+"Memphis, TN",88.2,76.2
+"Murfreesboro-Smyrna, TN",88.2,76.2
+"Tupelo, MS",88.1,72.3
+"Springfield, MO",88,76.8
+"Covington, KY",87.8,76.8
+"Louisville, KY",87.7,78.7
+"Temple, TX",87.4,71.8
+"Ardmore, OK",87.3,77.3
+"Paducah, KY",87.3,75.8
+"Indianapolis, IN",87.2,73.4
+"Martinsville-Henry, County, VA",87.1,77.6
+"Salina, KS",86.9,76
+"Johnson, City, TN",86.7,74.4
+"Conway, AR",86.6,78.8
+"Wichita, Falls, TX",86.5,84
+"Fort, Smith, AR",86.1,74.5
+"Muskogee, OK",86,68.3
+"Brownsville, TX",85.8,71
+"Springfield, IL",85.8,70.1
+"Cookeville, TN",85.7,71.4
+"Pueblo, CO",85.6,71.5
+"McAllen, TX",85,77.6
+"Pryor, Creek, OK",84.5,71.5
+"Harlingen, TX",82.8,75.8

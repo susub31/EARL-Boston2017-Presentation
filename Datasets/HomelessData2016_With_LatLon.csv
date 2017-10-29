@@ -1,0 +1,403 @@
+"","CoC.Number","CoC.Name","Total.Homeless..2016","cityname","lon","lat"
+"1","AK-500","Anchorage","1,105","Anchorage ,  AK",-149.9002778,61.2180556
+"2","AK-501","Alaska Balance of State","835","Alaska Balance of State ,  AK",-149.4394528,61.5814024
+"3","AL-500","Birmingham/Jefferson, St. Clair, Shelby Counties","1,228","Birmingham ,  AL",-86.80249,33.5206608
+"4","AL-501","Mobile City & County/Baldwin County","623","Mobile City & County ,  AL",-88.0398912,30.6953657
+"5","AL-502","Florence/Northwest Alabama","337","Florence ,  AL",-87.677251,34.79981
+"6","AL-503","Huntsville/North Alabama","385","Huntsville ,  AL",-86.5861037,34.7303688
+"7","AL-504","Montgomery City & County","367","Montgomery City & County ,  AL",-86.2999689,32.3668052
+"8","AL-505","Gadsden/Northeast Alabama","167","Gadsden ,  AL",-86.0066386,34.014264
+"9","AL-506","Tuscaloosa City & County","177","Tuscaloosa City & County ,  AL",-87.5691735,33.2098407
+"10","AL-507","Alabama Balance of State","827","Alabama Balance of State ,  AL",-86.6786635,34.7432699
+"11","AR-500","Little Rock/Central Arkansas","808","Little Rock ,  AR",-92.2895948,34.7464809
+"12","AR-501","Fayetteville/Northwest Arkansas","550","Fayetteville ,  AR",-94.1718542,36.082156
+"13","AR-503","Arkansas  Balance of State ","734","Arkansas  Balance of State  ,  AR",-92.3518129,34.781006
+"14","AR-504","Delta Hills","89","Delta Hills ,  AR",-90.7797514,34.9648361
+"15","AR-505","Southeast Arkansas","89","Southeast Arkansas ,  AR",-92.0266302,34.2097705
+"16","AR-508","Old Fort Homeless Coalition","166","Old Fort Homeless Coalition ,  AR",-94.4315794,35.3785822
+"17","AR-512","Boone, Baxter, Marion, Newton Counties","27","Boone ,  AR",-93.0175712,36.3118662
+"18","AZ-500","Arizona Balance of State","2,240","Arizona Balance of State ,  AZ",-112.0876623,33.4486776
+"19","AZ-501","Tucson/Pima County","1,765","Tucson ,  AZ",-110.926479,32.2217429
+"20","AZ-502","Phoenix/Mesa/Maricopa County Regional","5,702","Phoenix ,  AZ",-112.0740373,33.4483771
+"21","CA-500","San Jose/Santa Clara City & County","6,524","San Jose ,  CA",-121.8863286,37.3382082
+"22","CA-501","San Francisco","6,996","San Francisco ,  CA",-122.4194155,37.7749295
+"23","CA-502","Oakland/Alameda County","4,145","Oakland ,  CA",-122.2711137,37.8043637
+"24","CA-503","Sacramento City & County","2,500","Sacramento City & County ,  CA",-121.4943996,38.5815719
+"25","CA-504","Santa Rosa/Petaluma/Sonoma County","2,906","Santa Rosa ,  CA",-122.7140548,38.440429
+"26","CA-505","Richmond/Contra Costa County","1,730","Richmond ,  CA",-122.3477486,37.9357576
+"27","CA-506","Salinas/Monterey, San Benito Counties","3,022","Salinas ,  CA",-121.6555013,36.6777372
+"28","CA-507","Marin County","1,258","Marin County ,  CA",-122.7633036,38.083403
+"29","CA-508","Watsonville/Santa Cruz City & County","1,959","Watsonville ,  CA",-121.7568946,36.910231
+"30","CA-509","Mendocino County","1,242","Mendocino County ,  CA",-123.438353,39.5500194
+"31","CA-510","Turlock/Modesto/Stanislaus County","1,434","Turlock ,  CA",-120.8465941,37.4946568
+"32","CA-511","Stockton/San Joaquin County","1,780","Stockton ,  CA",-121.2907796,37.9577016
+"33","CA-512","Daly/San Mateo County","1,361","Daly ,  CA",-122.4702079,37.6879241
+"34","CA-513","Visalia, Kings, Tulare Counties","792","Visalia ,  CA",-119.2920585,36.3302284
+"35","CA-514","Fresno/Madera County","1,883","Fresno ,  CA",-119.7725868,36.7468422
+"36","CA-515","Roseville/Rocklin/Placer, Nevada Counties","1,021","Roseville ,  CA",-121.2880059,38.7521235
+"37","CA-516","Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties","1,272","Redding ,  CA",-122.3916754,40.5865396
+"38","CA-517","Napa City & County","317","Napa City & County ,  CA",-122.286865,38.2975381
+"39","CA-518","Vallejo/Solano County","1,118","Vallejo ,  CA",-122.2566367,38.1040864
+"40","CA-519","Chico/Paradise/Butte County","574","Chico ,  CA",-121.8374777,39.7284944
+"41","CA-520","Merced City & County","516","Merced City & County ,  CA",-120.4829677,37.3021632
+"42","CA-521","Davis/Woodland/Yolo County","532","Davis ,  CA",-121.7405167,38.5449065
+"43","CA-522","Humboldt County","1,134","Humboldt County ,  CA",-123.8695086,40.7450055
+"44","CA-523","Colusa, Glenn, Trinity Counties","115","Colusa ,  CA",-122.0094175,39.2143343
+"45","CA-524","Yuba City & County/Sutter County","702","Yuba City & County ,  CA",-121.6169108,39.1404477
+"46","CA-525","El Dorado County","269","El Dorado County ,  CA",-120.4357631,38.7426376
+"47","CA-526","Amador, Calaveras, Tuolumne and Mariposa Counties","632","Amador ,  CA",-120.7740931,38.3488921
+"48","CA-527","Tehama County","133","Tehama County ,  CA",-122.174605,40.0982197
+"49","CA-529","Lake County","332","Lake County ,  CA",-122.8084496,39.0839644
+"50","CA-600","Los Angeles City & County","43,854","Los Angeles City & County ,  CA",-118.2436849,34.0522342
+"51","CA-601","San Diego City and County","8,669","San Diego City and County ,  CA",-117.1506481,32.7153064
+"52","CA-602","Santa Ana/Anaheim/Orange County","4,319","Santa Ana ,  CA",-117.867653,33.7454725
+"53","CA-603","Santa Maria/Santa Barbara County","1,813","Santa Maria ,  CA",-120.4357191,34.9530337
+"54","CA-604","Bakersfield/Kern County","1,067","Bakersfield ,  CA",-119.0187125,35.3732921
+"55","CA-606","Long Beach","2,250","Long Beach ,  CA",-118.1937395,33.7700504
+"56","CA-607","Pasadena","530","Pasadena ,  CA",-118.1445155,34.1477849
+"57","CA-608","Riverside City & County","2,165","Riverside City & County ,  CA",-117.3961564,33.9533487
+"58","CA-609","San Bernardino City & County","1,887","San Bernardino City & County ,  CA",-117.2897652,34.1083449
+"59","CA-611","Oxnard/San Buenaventura/Ventura County","1,271","Oxnard ,  CA",-119.1770516,34.1975048
+"60","CA-612","Glendale","240","Glendale ,  CA",-118.255075,34.1425078
+"61","CA-613","Imperial County","380","Imperial County ,  CA",-115.4733554,33.0113694
+"62","CA-614","San Luis Obispo County","1,368","San Luis Obispo County ,  CA",-120.4357631,35.3102296
+"63","CA-615","Inyo, Mono, Alpine Counties","130","Inyo ,  CA",-117.5495846,36.3091865
+"64","CO-500","Colorado Balance of State","3,520","Colorado Balance of State ,  CO",-104.700781,38.9230838
+"65","CO-503","Metropolitan Denver Homeless Initiative","5,728","Metropolitan Denver Homeless Initiative ,  CO",-105.0044628,39.7438923
+"66","CO-504","Colorado Springs/El Paso County","1,302","Colorado Springs ,  CO",-104.8213634,38.8338816
+"67","CT-503","Bridgeport/Norwalk /Stamford/Fairfield County","886","Bridgeport ,  CT",-73.1951767,41.1865478
+"68","CT-505","Connecticut Balance of State","3,016","Connecticut Balance of State ,  CT",-73.0846528,41.3973884
+"69","DC-500","District of Columbia","8,350","District of Columbia ,  DC",-77.0368707,38.9071923
+"70","DE-500","Delaware Statewide","1,070","Delaware Statewide ,  DE",-75.5468848,39.1542405
+"71","FL-500","Sarasota/Bradenton/Manatee, Sarasota Counties","1,468","Sarasota ,  FL",-82.5306527,27.3364347
+"72","FL-501","Tampa/Hillsborough County","1,817","Tampa ,  FL",-82.4571776,27.950575
+"73","FL-502","St. Petersburg/Clearwater/Largo/Pinellas County","2,777","St. Petersburg ,  FL",-82.6267345,27.7518284
+"74","FL-503","Lakeland/Winter Haven/Polk County","635","Lakeland ,  FL",-81.9498042,28.0394654
+"75","FL-504","Daytona Beach/Daytona/Volusia, Flagler Counties","1,005","Daytona Beach ,  FL",-81.0228331,29.2108147
+"76","FL-505","Fort Walton Beach/Okaloosa, Walton Counties","629","Fort Walton Beach ,  FL",-86.6170308,30.4200708
+"77","FL-506","Tallahassee/Leon County","869","Tallahassee ,  FL",-84.2807329,30.4382559
+"78","FL-507","Orlando/Orange, Osceola, Seminole Counties","1,670","Orlando ,  FL",-81.3792365,28.5383355
+"79","FL-508","Gainesville/Alachua, Putnam Counties","844","Gainesville ,  FL",-82.3248262,29.6516344
+"80","FL-509","Fort Pierce/St. Lucie, Indian River, Martin Counties","2,382","Fort Pierce ,  FL",-80.3256056,27.4467056
+"81","FL-510","Jacksonville-Duval, Clay Counties","1,959","Jacksonville-Duval ,  FL",-81.655651,30.3321838
+"82","FL-511","Pensacola/Escambia/Santa Rosa County","798","Pensacola ,  FL",-87.2169149,30.421309
+"83","FL-512","Saint Johns County","1,064","Saint Johns County ,  FL",-81.4278984,29.9719419
+"84","FL-513","Palm Bay/Melbourne/Brevard County","827","Palm Bay ,  FL",-80.5886646,28.0344621
+"85","FL-514","Ocala/Marion County","823","Ocala ,  FL",-82.1400923,29.1871986
+"86","FL-515","Panama City/Bay, Jackson Counties","310","Panama City ,  FL",-85.6602058,30.1588129
+"87","FL-517","Hendry, Hardee, Highlands Counties","1,071","Hendry ,  FL",-81.0754657,26.6105319
+"88","FL-518","Columbia, Hamilton, Lafayette, Suwannee Counties","1,145","Columbia ,  FL",-82.605118,30.1812696
+"89","FL-519","Pasco County","1,055","Pasco County ,  FL",-82.4319405,28.3232418
+"90","FL-520","Citrus, Hernando, Lake, Sumter Counties","595","Citrus ,  FL",-82.5185837,28.8848842
+"91","FL-600","Miami/Dade County","4,235","Miami ,  FL",-80.1917902,25.7616798
+"92","FL-601","Ft Lauderdale/Broward County","2,302","Ft Lauderdale ,  FL",-80.1373174,26.1224386
+"93","FL-602","Punta Gorda/Charlotte County","388","Punta Gorda ,  FL",-82.0453664,26.9297836
+"94","FL-603","Ft Myers/Cape Coral/Lee County","439","Ft Myers ,  FL",-81.8723084,26.640628
+"95","FL-604","Monroe County","575","Monroe County ,  FL",-81.7825985,24.5557001
+"96","FL-605","West Palm Beach/Palm Beach County","1,332","West Palm Beach ,  FL",-80.0533746,26.7153424
+"97","FL-606","Naples/Collier County","545","Naples ,  FL",-81.7948103,26.1420358
+"98","GA-500","Atlanta Continuum of Care","4,063","Atlanta Continuum of Care ,  GA",-84.3744307,33.7509488
+"99","GA-501","Georgia Balance of State","5,575","Georgia Balance of State ,  GA",-84.3852819,33.753068
+"100","GA-502","Fulton County Continuum of Care","483","Fulton County Continuum of Care ,  GA",-84.3962535,33.8033965
+"101","GA-503","Athens/Clarke County","224","Athens ,  GA",-83.357567,33.9519347
+"102","GA-504","Augusta","287","Augusta ,  GA",-82.0105148,33.4734978
+"103","GA-505","Columbus-Muscogee/Russell County","329","Columbus-Muscogee ,  GA",-84.9877094,32.4609764
+"104","GA-506","Marietta/Cobb County","405","Marietta ,  GA",-84.5499327,33.952602
+"105","GA-507","Savannah/Chatham County","1,070","Savannah ,  GA",-81.0998342,32.0835407
+"106","GA-508","DeKalb County Continuum of Care","473","DeKalb County Continuum of Care ,  GA",-84.2278796,33.7956441
+"107","GU-500","Guam","1,085","Guam ,  GU",144.793731,13.444304
+"108","HI-500","Hawaii Balance of State","2,981","Hawaii Balance of State ,  HI",-157.8406912,21.3099873
+"109","HI-501","Honolulu","4,940","Honolulu ,  HI",-157.8583333,21.3069444
+"110","IA-500","Sioux City/Dakota, Woodbury Counties","348","Sioux City ,  IA",-96.4003069,42.4999942
+"111","IA-501","Iowa Balance of State","1,923","Iowa Balance of State ,  IA",-93.5165476,41.5976374
+"112","IA-502","Des Moines/Polk County","793","Des Moines ,  IA",-93.6091064,41.6005448
+"113","ID-500","Boise/Ada County","867","Boise ,  ID",-116.2146068,43.6187102
+"114","ID-501","Idaho Balance of State","1,380","Idaho Balance of State ,  ID",-116.3163693,43.6818232
+"115","IL-500","McHenry County","154","McHenry County ,  IL",-88.4016041,42.3039993
+"116","IL-501","Rockford/Winnebago, Boone Counties","255","Rockford ,  IL",-89.0939952,42.2711311
+"117","IL-502","Waukegan/North Chicago/Lake County","299","Waukegan ,  IL",-87.8447938,42.3636331
+"118","IL-503","Champaign/Urbana/Rantoul/Champaign County","188","Champaign ,  IL",-88.2433829,40.1164204
+"119","IL-504","Madison County","199","Madison County ,  IL",-89.9253233,38.9041402
+"120","IL-506","Joliet/Bolingbrook/Will County","290","Joliet ,  IL",-88.0817251,41.525031
+"121","IL-507","Peoria/Perkin/Fulton, Peoria, Tazewell, Woodford","378","Peoria ,  IL",-89.5889864,40.6936488
+"122","IL-508","East Saint Louis/Belleville/Saint Clair County","240","East Saint Louis ,  IL",-90.1506465,38.624514
+"123","IL-509","Dekalb City & County","81","Dekalb City & County ,  IL",-88.7503647,41.9294736
+"124","IL-510","Chicago","5,889","Chicago ,  IL",-87.6297982,41.8781136
+"125","IL-511","Cook County","952","Cook County ,  IL",-87.697554,41.7376587
+"126","IL-512","Bloomington/Central Illinois","411","Bloomington ,  IL",-88.9936873,40.4842027
+"127","IL-513","Springfield/Sangamon County","261","Springfield ,  IL",-89.6501481,39.7817213
+"128","IL-514","DuPage County","555","DuPage County ,  IL",-88.0900762,41.8243831
+"129","IL-515","South Central Illinois","133","South Central Illinois ,  IL",-89.398261,38.8972694
+"130","IL-516","Decatur/Macon County","157","Decatur ,  IL",-88.9548001,39.8403147
+"131","IL-517","Aurora/Elgin/Kane County","355","Aurora ,  IL",-88.3200715,41.7605849
+"132","IL-518","Rock Island/Moline/Northwestern Illinois","340","Rock Island ,  IL",-90.5787476,41.5094771
+"133","IL-519","West Central Illinois","102","West Central Illinois ,  IL",-90.9008581,40.849331
+"134","IL-520","Southern Illinois","351","Southern Illinois ,  IL",-88.9988098,37.6557172
+"135","IN-500","South Bend/Mishawaka/St. Joseph County","468","South Bend ,  IN",-86.2519898,41.6763545
+"136","IN-502","Indiana Balance of State","3,711","Indiana Balance of State ,  IN",-87.33662,41.595639
+"137","IN-503","Indianapolis","1,619","Indianapolis ,  IN",-86.158068,39.768403
+"138","KS-502","Wichita/Sedgwick County","571","Wichita ,  KS",-97.330053,37.6871761
+"139","KS-503","Topeka/Shawnee County","381","Topeka ,  KS",-95.6890185,39.0558235
+"140","KS-505","Overland Park/Shawnee/Johnson County","153","Overland Park ,  KS",-94.6707917,38.9822282
+"141","KS-507","Kansas Balance of State","903","Kansas Balance of State ,  KS",-95.667413,39.0517982
+"142","KY-500","Kentucky Balance of State","2,057","Kentucky Balance of State ,  KY",-85.766103,38.1144575
+"143","KY-501","Louisville/Jefferson County","1,116","Louisville ,  KY",-85.7584557,38.2526647
+"144","KY-502","Lexington/Fayette County","1,064","Lexington ,  KY",-84.5037164,38.0405837
+"145","LA-500","Lafayette/Acadiana","463","Lafayette ,  LA",-92.0198427,30.2240897
+"146","LA-502","Shreveport/Bossier/Northwest","478","Shreveport ,  LA",-93.7501789,32.5251516
+"147","LA-503","New Orleans/Jefferson Parish","1,626","New Orleans ,  LA",-90.0715323,29.9510658
+"148","LA-504","Baton Rouge","472","Baton Rouge ,  LA",-91.1403196,30.4582829
+"149","LA-505","Monroe/Northeast Louisiana","188","Monroe ,  LA",-92.1193012,32.5093109
+"150","LA-506","Slidell/Southeast Louisiana","275","Slidell ,  LA",-89.7811745,30.2751945
+"151","LA-507","Alexandria/Central Louisiana","167","Alexandria ,  LA",-92.4451371,31.3112936
+"152","LA-508","Houma-Terrebonne/Thibodaux","146","Houma-Terrebonne ,  LA",-90.7195348,29.5957696
+"153","LA-509","Louisiana Balance of State","179","Louisiana Balance of State ,  LA",-91.1134433,30.4320433
+"154","MA-500","Boston","6,240","Boston ,  MA",-71.0588801,42.3600825
+"155","MA-502","Lynn","541","Lynn ,  MA",-70.9494938,42.466763
+"156","MA-503","Cape Cod/Islands","394","Cape Cod ,  MA",-70.2962408,41.6687897
+"157","MA-504","Springfield","2,385","Springfield ,  MA",-72.589811,42.1014831
+"158","MA-505","New Bedford","469","New Bedford ,  MA",-70.934205,41.6362152
+"159","MA-506","Worcester City & County","1,572","Worcester City & County ,  MA",-71.8022934,42.2625932
+"160","MA-507","Pittsfield/Berkshire County","653","Pittsfield ,  MA",-73.2453824,42.4500845
+"161","MA-508","Lowell","594","Lowell ,  MA",-71.3161718,42.6334247
+"162","MA-509","Cambridge","517","Cambridge ,  MA",-71.1097335,42.3736158
+"163","MA-510","Gloucester/Haverhill/Salem/Essex County","1,206","Gloucester ,  MA",-70.6619888,42.6159285
+"164","MA-511","Quincy/Brockton/Weymouth/Plymouth City and County","1,692","Quincy ,  MA",-71.0022705,42.2528772
+"165","MA-515","Fall River","386","Fall River ,  MA",-71.1550451,41.7014912
+"166","MA-516","Massachusetts Balance of State","2,008","Massachusetts Balance of State ,  MA",-73.2730214,42.5086362
+"167","MA-517","Somerville","165","Somerville ,  MA",-71.0994968,42.3875968
+"168","MA-518","Brookline/Newton","543","Brookline ,  MA",-71.1211635,42.3317642
+"169","MA-519","Attleboro/Taunton/Bristol County","243","Attleboro ,  MA",-71.2856082,41.9445441
+"170","MD-500","Cumberland/Allegany County","124","Cumberland ,  MD",-78.7625185,39.6528654
+"171","MD-501","Baltimore City","2,725","Baltimore City ,  MD",-76.6121893,39.2903848
+"172","MD-502","Harford County","179","Harford County ,  MD",-76.3637285,39.5838964
+"173","MD-503","Annapolis/Anne Arundel County","390","Annapolis ,  MD",-76.4921829,38.9784453
+"174","MD-504","Howard County","214","Howard County ,  MD",-76.964306,39.2873463
+"175","MD-505","Baltimore County","763","Baltimore County ,  MD",-76.7336521,39.4647665
+"176","MD-506","Carroll County","136","Carroll County ,  MD",-77.0564464,39.5423418
+"177","MD-507","Cecil County","167","Cecil County ,  MD",-75.946324,39.5739403
+"178","MD-508","Charles, Calvert, St.Mary's Counties","464","Charles ,  MD",-77.1024902,38.5221781
+"179","MD-509","Frederick City & County","349","Frederick City & County ,  MD",-77.4105409,39.4142688
+"180","MD-510","Garrett County","20","Garrett County ,  MD",-79.2902133,39.5681243
+"181","MD-511","Mid-Shore Regional","138","Mid-Shore Regional ,  MD",-76.081629,38.788752
+"182","MD-512","Hagerstown/Washington County","233","Hagerstown ,  MD",-77.7199932,39.6417629
+"183","MD-513","Wicomico/Somerset/Worcester County","262","Wicomico ,  MD",-75.667356,38.3941813
+"184","MD-600","Prince George`s County/Maryland","544","Prince George`s County ,  MD",-76.8720961,38.7849211
+"185","MD-601","Montgomery County","981","Montgomery County ,  MD",-77.2405153,39.1547426
+"186","ME-500","Maine Balance of State","1,482","Maine Balance of State ,  ME",-70.3543522,43.5894039
+"187","ME-502","Portland","759","Portland ,  ME",-70.2553259,43.661471
+"188","MI-500","Michigan Balance of State","1,466","Michigan Balance of State ,  MI",-83.214722,42.548011
+"189","MI-501","Detroit","2,335","Detroit ,  MI",-83.0457538,42.331427
+"190","MI-502","Dearborn/Dearborn Heights/Westland/Wayne County","277","Dearborn ,  MI",-83.1763145,42.3222599
+"191","MI-503","St. Clair Shores/Warren/Macomb County","403","St. Clair Shores ,  MI",-82.8963604,42.4974085
+"192","MI-504","Pontiac/Royal Oak/Oakland County","438","Pontiac ,  MI",-83.2910468,42.6389216
+"193","MI-505","Flint/Genesee County","377","Flint ,  MI",-83.6874562,43.0125274
+"194","MI-506","Grand Rapids/Wyoming/Kent County","800","Grand Rapids ,  MI",-85.6680863,42.9633599
+"195","MI-507","Portage/Kalamazoo City & County","374","Portage ,  MI",-85.5800022,42.2011538
+"196","MI-508","Lansing/East Lansing/Ingham County","471","Lansing ,  MI",-84.5555347,42.732535
+"197","MI-509","Ann Arbor/Washtenaw County","342","Ann Arbor ,  MI",-83.7430378,42.2808256
+"198","MI-510","Saginaw City & County","343","Saginaw City & County ,  MI",-83.9508068,43.4194699
+"199","MI-511","Lenawee County","137","Lenawee County ,  MI",-84.0167423,41.8433859
+"200","MI-512","Grand Traverse, Antrim, Leelanau Counties","243","Grand Traverse ,  MI",-85.520024,44.687984
+"201","MI-513","Marquette, Alger Counties","70","Marquette ,  MI",-87.3955954,46.5475825
+"202","MI-514","Battle Creek/Calhoun County","246","Battle Creek ,  MI",-85.1797142,42.3211522
+"203","MI-515","Monroe City & County","176","Monroe City & County ,  MI",-91.7346056,39.6536529
+"204","MI-516","Norton Shores/Muskegon City & County","191","Norton Shores ,  MI",-86.2639461,43.1689044
+"205","MI-517","Jackson City & County","169","Jackson City & County ,  MI",-90.1848103,32.2987573
+"206","MI-518","Livingston County","77","Livingston County ,  MI",-83.8473015,42.6207951
+"207","MI-519","Holland/Ottawa County","261","Holland ,  MI",-86.1089301,42.7875235
+"208","MI-523","Eaton County","120","Eaton County ,  MI",-84.7733325,42.5886496
+"209","MN-500","Minneapolis/Hennepin County","3,056","Minneapolis ,  MN",-93.2650108,44.977753
+"210","MN-501","Saint Paul/Ramsey County","1,346","Saint Paul ,  MN",-93.0899578,44.9537029
+"211","MN-502","Rochester/Southeast Minnesota","423","Rochester ,  MN",-92.4801989,44.0121221
+"212","MN-503","Dakota, Anoka, Washington, Scott, Carver Counties","618","Dakota ,  MN",-91.3605035,43.9135799
+"213","MN-504","Northeast Minnesota","77","Northeast Minnesota ,  MN",-93.2557053,45.0190505
+"214","MN-505","St. Cloud/Central Minnesota","669","St. Cloud ,  MN",-94.1632404,45.5579451
+"215","MN-506","Northwest Minnesota","290","Northwest Minnesota ,  MN",-93.168573,45.031563
+"216","MN-508","Moorhead/West Central Minnesota","211","Moorhead ,  MN",-96.7678039,46.8737648
+"217","MN-509","Duluth/St.Louis County","528","Duluth ,  MN",-92.1004852,46.7866719
+"218","MN-511","Southwest Minnesota","123","Southwest Minnesota ,  MN",-95.759773,44.4560884
+"219","MO-500","St. Louis County","465","St. Louis County ,  MO",-90.4125181,38.6103023
+"220","MO-501","St.Louis City","1,248","St.Louis City ,  MO",-90.1994042,38.6270025
+"221","MO-503","St. Charles, Lincoln, Warren Counties","610","St. Charles ,  MO",-90.4974359,38.7881062
+"222","MO-600","Springfield/Greene, Christian, Webster Counties","496","Springfield ,  MO",-93.2922989,37.2089572
+"223","MO-602","Joplin/Jasper, Newton Counties","297","Joplin ,  MO",-94.513281,37.0842271
+"224","MO-603","St. Joseph/Andrew, Buchanan, DeKalb Counties","195","St. Joseph ,  MO",-94.846681,39.7674578
+"225","MO-604a","Kansas City, Independence, Lee’s Summit/Jackson, Wyandotte Counties, MO & KS","1,699","Kansas City ,  MO",-94.5785667,39.0997265
+"226","MO-606","Missouri Balance of State","1,431","Missouri Balance of State ,  MO",-90.4567738,38.6794275
+"227","MS-500","Jackson/Rankin, Madison Counties","633","Jackson ,  MS",-90.1848103,32.2987573
+"228","MS-501","Mississippi Balance of State","785","Mississippi Balance of State ,  MS",-88.7943766,33.4551742
+"229","MS-503","Gulf Port/Gulf Coast Regional","320","Gulf Port ,  MS",-89.0928155,30.3674198
+"230","MT-500","Montana Statewide","1,418","Montana Statewide ,  MT",-115.0508561,48.027583
+"231","NC-500","Winston Salem/Forsyth County","544","Winston Salem ,  NC",-80.244216,36.0998596
+"232","NC-501","Asheville/Buncombe County","509","Asheville ,  NC",-82.5514869,35.5950581
+"233","NC-502","Durham City & County","354","Durham City & County ,  NC",-78.898619,35.9940329
+"234","NC-503","North Carolina Balance of State","2,963","North Carolina Balance of State ,  NC",-78.5651542,35.8611047
+"235","NC-504","Greensboro/High Point","721","Greensboro ,  NC",-79.7919754,36.0726354
+"236","NC-505","Charlotte/Mecklenberg","1,818","Charlotte ,  NC",-80.8431267,35.2270869
+"237","NC-506","Wilmington/Brunswick, New Hanover, Pender Counties","389","Wilmington ,  NC",-77.9447102,34.2257255
+"238","NC-507","Raleigh/Wake County","818","Raleigh ,  NC",-78.6381787,35.7795897
+"239","NC-509","Gastonia/Cleveland, Gaston, Lincoln Counties","328","Gastonia ,  NC",-81.1873005,35.262082
+"240","NC-511","Fayetteville/Cumberland County","515","Fayetteville ,  NC",-78.8783585,35.0526641
+"241","NC-513","Chapel Hill/Orange County","80","Chapel Hill ,  NC",-79.0558445,35.9131996
+"242","NC-516","Northwest North Carolina","520","Northwest North Carolina ,  NC",-78.1611077,34.3129464
+"243","ND-500","North Dakota Statewide","923","North Dakota Statewide ,  ND",-100.9237176,46.8530787
+"244","NE-500","Nebraska Balance of State","551","Nebraska Balance of State ,  NE",-96.654766,40.769337
+"245","NE-501","Omaha/Council Bluffs","1,509","Omaha ,  NE",-95.9979883,41.2523634
+"246","NE-502","Lincoln","694","Lincoln ,  NE",-96.6851982,40.8257625
+"247","NH-500","New Hampshire Balance of State","670","New Hampshire Balance of State ,  NH",-71.1163043,44.0231998
+"248","NH-501","Manchester","400","Manchester ,  NH",-71.4547891,42.9956397
+"249","NH-502","Nashua/Hillsborough County","296","Nashua ,  NH",-71.467566,42.7653662
+"250","NJ-500","Atlantic City & County","476","Atlantic City & County ,  NJ",-74.4229266,39.3642834
+"251","NJ-501","Bergen County","296","Bergen County ,  NJ",-74.07701,40.9262762
+"252","NJ-502","Burlington County","926","Burlington County ,  NJ",-74.6868815,39.8558488
+"253","NJ-503","Camden City/Camden, Cumberland, Gloucester, Cape May Counties","1,068","Camden City ,  NJ",-75.1196199,39.9259463
+"254","NJ-504","Newark/Essex County","1,779","Newark ,  NJ",-74.1723667,40.735657
+"255","NJ-506","Jersey City/Bayonne/Hudson County","829","Jersey City ,  NJ",-74.0776417,40.7281575
+"256","NJ-507","New Brunswick/Middlesex County","457","New Brunswick ,  NJ",-74.4518188,40.4862157
+"257","NJ-508","Monmouth County","344","Monmouth County ,  NJ",-74.123996,40.2589455
+"258","NJ-509","Morris County","410","Morris County ,  NJ",-74.5463282,40.8336038
+"259","NJ-510","Lakewood Township/Ocean County","429","Lakewood Township ,  NJ",-74.2097014,40.082129
+"260","NJ-511","Paterson/Passaic County","432","Paterson ,  NJ",-74.171811,40.9167654
+"261","NJ-513","Somerset County","218","Somerset County ,  NJ",-74.6400432,40.5292099
+"262","NJ-514","Trenton/Mercer County","465","Trenton ,  NJ",-74.7429384,40.2170534
+"263","NJ-515","Elizabeth/Union County","513","Elizabeth ,  NJ",-74.2107006,40.6639916
+"264","NJ-516","Warren, Sussex, Hunterdon Counties","253","Warren ,  NJ",-74.5004796,40.6342489
+"265","NM-500","Albuquerque","1,222","Albuquerque ,  NM",-106.6055534,35.0853336
+"266","NM-501","New Mexico Balance of State","1,041","New Mexico Balance of State ,  NM",-106.5684581,35.1083171
+"267","NV-500","Las Vegas/Clark County","6,208","Las Vegas ,  NV",-115.1398296,36.1699412
+"268","NV-501","Reno/Sparks/Washoe County","989","Reno ,  NV",-119.8138027,39.5296329
+"269","NV-502","Nevada Balance of State","201","Nevada Balance of State ,  NV",-119.7930674,39.4726584
+"270","NY-500","Rochester/Irondequoit/Greece/Monroe County","860","Rochester ,  NY",-77.6109219,43.16103
+"271","NY-501","Elmira/Steuben, Allegany, Livingston, Chemung, Schuyler Counties","506","Elmira ,  NY",-76.8077338,42.0897965
+"272","NY-503","Albany City & County","748","Albany City & County ,  NY",-73.7562317,42.6525793
+"273","NY-504","Cattaragus County","27","Cattaragus County ,  NY",-78.7476208,42.2318132
+"274","NY-505","Syracuse, Auburn/Onondaga, Oswego, Cayuga Counties","867","Syracuse ,  NY",-76.1474244,43.0481221
+"275","NY-507","Schenectady City & County","345","Schenectady City & County ,  NY",-73.9395687,42.8142432
+"276","NY-508","Buffalo, Niagara Falls/Erie, Niagara, Orleans, Genesee, Wyoming Counties","962","Buffalo ,  NY",-78.8783689,42.8864468
+"277","NY-510","Ithaca/Tompkins County","86","Ithaca ,  NY",-76.5018807,42.4439614
+"278","NY-511","Binghamton, Union/Broome, Otsego, Chenango, Delaware, Cortland, Tioga Counties C","276","Binghamton ,  NY",-75.9179738,42.0986867
+"279","NY-512","Troy/Rensselaer County","179","Troy ,  NY",-73.6917851,42.7284117
+"280","NY-513","Wayne, Ontario, Seneca, Yates Counties","58","Wayne ,  NY",-77.1055262,42.4709046
+"281","NY-514","Jamestown/Dunkirk/Chautauqua County","23","Jamestown ,  NY",-79.2353259,42.0970023
+"282","NY-516","Clinton County","132","Clinton County ,  NY",-73.6005824,44.7904203
+"283","NY-518","Utica/Rome/Oneida, Madison Counties","160","Utica ,  NY",-75.232664,43.100903
+"284","NY-519","Columbia/Greene County","116","Columbia ,  NY",-73.9625727,40.8075355
+"285","NY-520","Franklin County","27","Franklin County ,  NY",-74.3387798,44.5926135
+"286","NY-522","Jefferson/Lewis/St. Lawrence Counties","119","Jefferson ,  NY",-74.6102591,42.4813303
+"287","NY-523","Glens Falls/Saratoga Springs/Saratoga, Washington, Warren, Hamilton Counties","268","Glens Falls ,  NY",-73.6440058,43.3095164
+"288","NY-600","New York City","73,523","New York City ,  NY",-74.0059728,40.7127753
+"289","NY-601","Poughkeepsie/Dutchess County","385","Poughkeepsie ,  NY",-73.9209701,41.7003713
+"290","NY-602","Newburgh/Middletown/Orange County","343","Newburgh ,  NY",-74.0104178,41.5034271
+"291","NY-603","Nassau, Suffolk Counties/Babylon/Islip/ Huntington","3,960","Nassau ,  NY",-73.6101159,42.5159145
+"292","NY-604","Yonkers/Mount Vernon/New Rochelle/Westchester","1,750","Yonkers ,  NY",-73.8987469,40.9312099
+"293","NY-606","Rockland County","141","Rockland County ,  NY",-73.9830029,41.1489458
+"294","NY-607","Sullivan County","163","Sullivan County ,  NY",-74.7805192,41.6897493
+"295","NY-608","Kingston/Ulster County","328","Kingston ,  NY",-73.9973608,41.9270367
+"296","OH-500","Cincinnati/Hamilton County","1,116","Cincinnati ,  OH",-84.5120196,39.1031182
+"297","OH-501","Toledo/Lucas County","599","Toledo ,  OH",-83.555212,41.6639383
+"298","OH-502","Cleveland/Cuyahoga County","1,697","Cleveland ,  OH",-81.6943605,41.49932
+"299","OH-503","Columbus/Franklin County","1,724","Columbus ,  OH",-82.9987942,39.9611755
+"300","OH-504","Youngstown/Mahoning County","346","Youngstown ,  OH",-80.6495194,41.0997803
+"301","OH-505","Dayton/Kettering/Montgomery County","751","Dayton ,  OH",-84.1916069,39.7589478
+"302","OH-506","Akron/Barberton/Summit County","679","Akron ,  OH",-81.5190053,41.0814447
+"303","OH-507","Ohio Balance of State","3,032","Ohio Balance of State ,  OH",-83.0309143,40.0141905
+"304","OH-508","Canton/Massillon/Alliance/Stark County","460","Canton ,  OH",-81.378447,40.7989473
+"305","OK-500","North Central Oklahoma","129","North Central Oklahoma ,  OK",-97.5069846,35.4815673
+"306","OK-501","Tulsa City & County/Broken Arrow","1,043","Tulsa City & County ,  OK",-95.992775,36.1539816
+"307","OK-502","Oklahoma City","1,511","Oklahoma City ,  OK",-97.5164276,35.4675602
+"308","OK-503","Oklahoma Balance of State","295","Oklahoma Balance of State ,  OK",-97.5311065,35.3827112
+"309","OK-504","Norman/Cleveland County","138","Norman ,  OK",-97.4394777,35.2225668
+"310","OK-505","Northeast Oklahoma","368","Northeast Oklahoma ,  OK",-97.5164276,35.4675602
+"311","OK-506","Southwest Oklahoma Regional","187","Southwest Oklahoma Regional ,  OK",-97.5816919,35.5306526
+"312","OK-507","Southeastern Oklahoma Regional","436","Southeastern Oklahoma Regional ,  OK",-97.1638468,34.1704104
+"313","OR-500","Eugene/Springfield/Lane County","1,451","Eugene ,  OR",-123.0867536,44.0520691
+"314","OR-501","Portland-Gresham-Multnomah County","3,914","Portland-Gresham-Multnomah County ,  OR",-122.4251263,45.5026512
+"315","OR-502","Medford/Ashland/Jackson County","527","Medford ,  OR",-122.8755949,42.3265152
+"316","OR-503","Central Oregon","602","Central Oregon ,  OR",-122.9164307,42.3759586
+"317","OR-505","Oregon Balance of State","5,710","Oregon Balance of State ,  OR",-123.2794443,44.5637806
+"318","OR-506","Hillsboro/Beaverton/Washington County","571","Hillsboro ,  OR",-122.989827,45.5228939
+"319","OR-507","Clackamas County","463","Clackamas County ,  OR",-122.1188945,45.2023855
+"320","PA-500","Philadelphia","6,112","Philadelphia ,  PA",-75.1652215,39.9525839
+"321","PA-501","Harrisburg/Dauphin County","433","Harrisburg ,  PA",-76.8867008,40.2731911
+"322","PA-502","Upper Darby/Chester/Haverford/Delaware County","406","Upper Darby ,  PA",-75.3076883,39.957902
+"323","PA-503","Wilkes-Barre/Hazleton/Luzerne County","169","Wilkes-Barre ,  PA",-75.8813075,41.2459149
+"324","PA-504","Lower Marion/Norristown/Abington/Montgomery County","398","Lower Marion ,  PA",-75.2829046,40.0249667
+"325","PA-505","Chester County","558","Chester County ,  PA",-75.8069082,40.0010204
+"326","PA-506","Reading/Berks County","521","Reading ,  PA",-75.9268747,40.3356483
+"327","PA-508","Scranton/Lackawanna County","242","Scranton ,  PA",-75.6624122,41.408969
+"328","PA-509","Eastern Pennsylvania","2,599","Eastern Pennsylvania ,  PA",-75.1812913,40.9995386
+"329","PA-510","Lancaster City & County","356","Lancaster City & County ,  PA",-76.3055144,40.0378755
+"330","PA-511","Bristol/Bensalem/Bucks County","530","Bristol ,  PA",-74.8518311,40.1006661
+"331","PA-512","York City & County","365","York City & County ,  PA",-76.727745,39.9625984
+"332","PA-600","Pittsburgh/McKeesport/Penn Hills/Allegheny County","1,156","Pittsburgh ,  PA",-79.9958864,40.4406248
+"333","PA-601","Western Pennsylvania","986","Western Pennsylvania ,  PA",-79.1600548,40.623263
+"334","PA-603","Beaver County","131","Beaver County ,  PA",-80.365865,40.6367812
+"335","PA-605","Erie City & County","377","Erie City & County ,  PA",-80.085059,42.1292241
+"336","PR-502","Puerto Rico Balance of Commonwealth","2,343","Puerto Rico Balance of Commonwealth ,  PR",-66.590149,18.220833
+"337","PR-503","South/Southeast Puerto Rico","2,075","South ,  PR",-66.590149,18.220833
+"338","RI-500","Rhode Island Statewide","1,160","Rhode Island Statewide ,  RI",-71.4157045,41.8328524
+"339","SC-500","Charleston/Low Country","550","Charleston ,  SC",-79.9310512,32.7764749
+"340","SC-501","Greenville/Anderson/Spartanburg Upstate","1,829","Greenville ,  SC",-82.3940104,34.8526176
+"341","SC-502","Columbia/Midlands","1,350","Columbia ,  SC",-81.0348144,34.0007104
+"342","SC-503","Myrtle Beach/Sumter City & County","1,322","Myrtle Beach ,  SC",-78.8866943,33.6890603
+"343","SD-500","South Dakota Statewide","1,072","South Dakota Statewide ,  SD",-97.0495866,45.6627684
+"344","TN-500","Chattanooga/Southeast Tennessee","527","Chattanooga ,  TN",-85.3096801,35.0456297
+"345","TN-501","Memphis/Shelby County","1,669","Memphis ,  TN",-90.0489801,35.1495343
+"346","TN-502","Knoxville/Knox County","748","Knoxville ,  TN",-83.9207392,35.9606384
+"347","TN-503","Central Tennessee","296","Central Tennessee ,  TN",-82.2895807,36.3262178
+"348","TN-504","Nashville/Davidson County","2,365","Nashville ,  TN",-86.7816016,36.1626638
+"349","TN-506","Oak Ridge/Upper Cumberland","249","Oak Ridge ,  TN",-84.2696449,36.0103561
+"350","TN-507","Jackson/West Tennessee","1,541","Jackson ,  TN",-88.8139469,35.6145169
+"351","TN-509","Appalachian Regional","448","Appalachian Regional ,  TN",-82.3525832,36.3127747
+"352","TN-510","Murfreesboro/Rutherford County","306","Murfreesboro ,  TN",-86.39027,35.8456213
+"353","TN-512","Morristown/Blount, Sevier, Campbell,ke Counties","630","Morristown ,  TN",-83.2948922,36.2139814
+"354","TX-500","San Antonio/Bexar County","2,781","San Antonio ,  TX",-98.4936282,29.4241219
+"355","TX-503","Austin/Travis County","2,138","Austin ,  TX",-97.7430608,30.267153
+"356","TX-600","Dallas City & County/Irving","3,810","Dallas City & County ,  TX",-96.7969879,32.7766642
+"357","TX-601","Fort Worth/Arlington/Tarrant County","1,938","Fort Worth ,  TX",-97.3307658,32.7554883
+"358","TX-603","El Paso City & County","1,100","El Paso City & County ,  TX",-106.4850217,31.7618778
+"359","TX-604","Waco/McLennan County","267","Waco ,  TX",-97.1466695,31.549333
+"360","TX-607","Texas Balance of State (BoS)","6,048","Texas Balance of State (BoS) ,  TX",-97.7851552,30.2295349
+"361","TX-611","Amarillo","592","Amarillo ,  TX",-101.8312969,35.2219971
+"362","TX-624","Wichita Falls/Wise, Palo Pinto, Wichita, Archer Counties","256","Wichita Falls ,  TX",-98.4933873,33.9137085
+"363","TX-700","Houston, Pasadena, Conroe/Harris, Ft. Bend, Montgomery, Counties","4,031","Houston ,  TX",-95.3698028,29.7604267
+"364","TX-701","Bryan/College Station/Brazos Valley","161","Bryan ,  TX",-96.3699632,30.6743643
+"365","UT-500","Salt Lake City & County","1,891","Salt Lake City & County ,  UT",-111.8910474,40.7607793
+"366","UT-503","Utah Balance of State","738","Utah Balance of State ,  UT",-111.7549916,40.3665419
+"367","UT-504","Provo/Mountainland","178","Provo ,  UT",-111.6585337,40.2338438
+"368","VA-500","Richmond/Henrico, Chesterfield, Hanover Counties","762","Richmond ,  VA",-77.4360481,37.5407246
+"369","VA-501","Norfolk/Chesapeake/Suffolk/Isle of Wright, Southampton Counties","723","Norfolk ,  VA",-76.2858726,36.8507689
+"370","VA-502","Roanoke City & County/Salem","308","Roanoke City & County ,  VA",-79.9414266,37.2709704
+"371","VA-503","Virginia Beach","389","Virginia Beach ,  VA",-75.977985,36.8529263
+"372","VA-504","Charlottesville","157","Charlottesville ,  VA",-78.4766781,38.0293059
+"373","VA-505","Newport News/Hampton/Virginia Peninsula","464","Newport News ,  VA",-76.4730122,37.0870821
+"374","VA-507","Portsmouth","169","Portsmouth ,  VA",-76.2982742,36.8354258
+"375","VA-508","Lynchburg","174","Lynchburg ,  VA",-79.1422464,37.4137536
+"376","VA-513","Harrisburg, Winchester/Western Virginia","268","Harrisburg ,  VA",-78.8689155,38.4495688
+"377","VA-514","Fredericksburg/Spotsylvania, Stafford Counties","209","Fredericksburg ,  VA",-77.4605399,38.3031837
+"378","VA-521","Virginia Balance of State (BoS)","654","Virginia Balance of State (BoS) ,  VA",-78.9069135,36.7028137
+"379","VA-600","Arlington County","174","Arlington County ,  VA",-77.0909809,38.8816208
+"380","VA-601","Fairfax County","1,059","Fairfax County ,  VA",-77.2405153,38.9085472
+"381","VA-602","Loudoun County","134","Loudoun County ,  VA",-77.6536125,39.076767
+"382","VA-603","City of Alexandria","224","City of Alexandria ,  VA",-77.0469214,38.8048355
+"383","VA-604","Prince William County","400","Prince William County ,  VA",-77.6077865,38.7838939
+"384","VI-500","Virgin Islands","341","Virgin Islands ,  VI",-64.896335,18.335765
+"385","VT-500","Vermont Balance of State","785","Vermont Balance of State ,  VT",-72.4662174,44.8572037
+"386","VT-501","Burlington/Chittenden County","332","Burlington ,  VT",-73.212072,44.4758825
+"387","WA-500","Seattle/King County","10,730","Seattle ,  WA",-122.3320708,47.6062095
+"388","WA-501","Washington Balance of State","5,294","Washington Balance of State ,  WA",-122.3536511,47.6514226
+"389","WA-502","Spokane City & County","981","Spokane City & County ,  WA",-117.4260465,47.6587802
+"390","WA-503","Tacoma/Lakewood/Pierce County","1,762","Tacoma ,  WA",-122.4442906,47.2528768
+"391","WA-504","Everett/Snohomish County","960","Everett ,  WA",-122.2020795,47.9789848
+"392","WA-507","Yakima City & County","412","Yakima City & County ,  WA",-120.5058987,46.6020711
+"393","WA-508","Vancouver/Clark County","688","Vancouver ,  WA",-122.6716063,45.6318397
+"394","WI-500","Wisconsin Balance of State","3,445","Wisconsin Balance of State ,  WI",-88.1255965,43.0350893
+"395","WI-501","Milwaukee City & County","1,415","Milwaukee City & County ,  WI",-87.9064736,43.0389025
+"396","WI-502","Racine City & County","196","Racine City & County ,  WI",-87.7828523,42.7261309
+"397","WI-503","Madison/Dane County","629","Madison ,  WI",-89.4012302,43.0730517
+"398","WV-500","Wheeling/Weirton Area","91","Wheeling ,  WV",-80.7209149,40.0639616
+"399","WV-501","Huntington/Cabell, Wayne Counties","228","Huntington ,  WV",-82.445154,38.4192496
+"400","WV-503","Charleston/Kanawha, Putnam, Boone, Clay Counties","320","Charleston ,  WV",-81.6326234,38.3498195
+"401","WV-508","West Virginia Balance of State","748","West Virginia Balance of State ,  WV",-80.2692453,39.2816512
+"402","WY-500","Wyoming Statewide","857","Wyoming Statewide ,  WY",-106.325437,42.855415
