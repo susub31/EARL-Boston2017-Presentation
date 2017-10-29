@@ -1,0 +1,154 @@
+---
+title: "Time Series Analysis - A Model Approach"
+author: "Sudha Subramanian (Sparkfish)"
+date: "Oct 29, 2017"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+This is a basic time-series analysis to show how we can build models to predict homeless counts based on information from the previous years.  This analysis demonstrates how to build a time-series data from datasets across years 2007 to 2016 and using one state's data (Alaska), it can be shown how close the predicted number matches the actual.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, message=FALSE}
+require(dplyr)
+require(forecast)
+require(tseries)
+require(ggplot2)
+```
+
+## Datasets for Time Series Analysis
+“Point-in-time” surveys are taken periodically to track counts of homeless people periodically.  Thes counts are released by the Department of Housing and Urban Development on an annual basis.  This public dataset is used for this exercise.  Data available from 2007 through 2016 is split into individual datasets for this exercise and have been saved to 'Datasets' folder in this repository.
+
+```{r message=FALSE, warning=FALSE}
+# Using the code below multiple datasets are created in a dynamic fashion; column added to capture year
+years = c("2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016")
+for (i in years) {
+  inputfilename = paste0("../Datasets/PIT_CountsByState_", i, ".csv")
+  assign(paste0("hdata", i), read.csv(paste0("../Datasets/PIT_CountsByState_", i, ".csv"), stringsAsFactors = FALSE))
+}
+
+```
+
+Datasets formed in the above step are combined into one single dataset that includes only the 'Homeless Counts' across all states over the years.
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+hdata2007$Year <- 2007
+hdata2008$Year <- 2008
+hdata2009$Year <- 2009
+hdata2010$Year <- 2010
+hdata2011$Year <- 2011
+hdata2012$Year <- 2012
+hdata2013$Year <- 2013
+hdata2014$Year <- 2014
+hdata2015$Year <- 2015
+hdata2016$Year <- 2016
+
+combineddata <- merge(hdata2007, hdata2008, by.x ="State", by.y="State")
+combineddata <- select(combineddata, State, TotalHomeless2007, TotalHomeless2008)
+
+combineddata <- merge(combineddata, hdata2009, by.x ="State", by.y="State")
+combineddata <- select(combineddata, State, TotalHomeless2007, TotalHomeless2008, TotalHomeless2009)
+
+combineddata <- merge(combineddata, hdata2010, by.x ="State", by.y="State")
+combineddata <- select(combineddata, State, TotalHomeless2007, TotalHomeless2008, TotalHomeless2009,
+                       TotalHomeless2010)
+
+combineddata <- merge(combineddata, hdata2011, by.x ="State", by.y="State")
+combineddata <- select(combineddata, State, TotalHomeless2007, TotalHomeless2008, TotalHomeless2009,
+                       TotalHomeless2010, TotalHomeless2011)
+
+combineddata <- merge(combineddata, hdata2012, by.x ="State", by.y="State")
+combineddata <- select(combineddata, State, TotalHomeless2007, TotalHomeless2008, TotalHomeless2009,
+                       TotalHomeless2010, TotalHomeless2011, TotalHomeless2012)
+
+combineddata <- merge(combineddata, hdata2013, by.x ="State", by.y="State")
+combineddata <- select(combineddata, State, TotalHomeless2007, TotalHomeless2008, TotalHomeless2009,
+                       TotalHomeless2010, TotalHomeless2011, TotalHomeless2012, TotalHomeless2013)
+
+combineddata <- merge(combineddata, hdata2014, by.x ="State", by.y="State")
+combineddata <- select(combineddata, State, TotalHomeless2007, TotalHomeless2008, TotalHomeless2009,
+                       TotalHomeless2010, TotalHomeless2011, TotalHomeless2012, TotalHomeless2013, TotalHomeless2014)
+
+combineddata <- merge(combineddata, hdata2015, by.x ="State", by.y="State")
+combineddata <- select(combineddata, State, TotalHomeless2007, TotalHomeless2008, TotalHomeless2009,
+                       TotalHomeless2010, TotalHomeless2011, TotalHomeless2012, TotalHomeless2013, 
+                       TotalHomeless2014, TotalHomeless2015)
+
+combineddata <- merge(combineddata, hdata2016, by.x ="State", by.y="State")
+combineddata <- select(combineddata, State, TotalHomeless2007, TotalHomeless2008, TotalHomeless2009,
+                       TotalHomeless2010, TotalHomeless2011, TotalHomeless2012, TotalHomeless2013, 
+                       TotalHomeless2014, TotalHomeless2015, TotalHomeless2016)
+
+
+```
+
+Displaying sample of the combined dataset ...
+```{r message=FALSE, warning=FALSE}
+head(combineddata)
+```
+
+Extracting this as a time-series data for one of the states (AK)
+
+```{r message=FALSE, warning=FALSE}
+AK_Data_TS <- tidyr::gather(combineddata[1,], "Year", "Counts", 2:11)
+AK_Data_TS$Year <- gsub("TotalHomeless", "", AK_Data_TS$Year)
+AK_Data_TS$State = NULL
+
+AK_Data_TS
+
+```
+
+
+Plotting the time-series data ...
+```{r message=FALSE, warning=FALSE}
+
+plot.ts(AK_Data_TS$Counts)
+```
+
+Performing a simple time-series modeling using ARIMA and predicting the value for the next year ...
+```{r message=FALSE, warning=FALSE}
+fit <- arima(log(AK_Data_TS$Counts))
+pred <- predict(fit, n.ahead = 1)
+new_TS <- rbind(AK_Data_TS, c(2017, as.integer(2.718^pred$pred)))
+print(paste0("The value for the next year 2017 is: ", as.integer(2.718^pred$pred)))
+```
+
+Displaying the time-series data with the predicted value for 2017 ...
+```{r message=FALSE, warning=FALSE}
+tail(new_TS)
+# 2017 for Alaska: 1128 + 717 (https://www.alaskahousing-homeless.org/data/)
+
+```
+
+Looking up the PIT counts from the website for 2017 shows the predicted value is pretty close ...
+```{r message=FALSE, warning=FALSE}
+print("https://www.alaskahousing-homeless.org/data/")
+print("PIT counts for 2017 for Alaska are: 1128 + 717 = 1845")
+
+```
+
+Plotting the time series data (2007 to 2016)
+```{r message=FALSE, warning=FALSE}
+AK <- as.data.frame(AK_Data_TS)
+p1 <- ggplot(AK, aes(Year, Counts, group=1)) +
+  geom_point() + 
+  geom_line() +
+  labs(x="Year", y="Counts") + 
+  geom_smooth() 
+
+p1
+```
+
+Plotting the time series data (2007 to 2017)
+```{r message=FALSE, warning=FALSE}
+p2 <- ggplot(new_TS, aes(Year, Counts, group=1)) +
+  geom_point() + 
+  geom_line() +
+  labs(x="Year", y="Counts") + 
+  geom_smooth() 
+
+p2
+```

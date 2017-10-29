@@ -18,6 +18,7 @@ require(stringr)
 require(stringi)
 require(caret)
 require(ggmap)
+require(ggplot2)
 
 #function definition to extract from string
 substrRight <- function(x, n){
