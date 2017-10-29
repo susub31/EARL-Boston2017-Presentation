@@ -1,0 +1,27 @@
+---
+title: "Homeless Data Analysis - Insights"
+author: "Sudha Subramanian (Sparkfish)"
+date: "Oct 28, 2017"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, message=FALSE}
+require(dplyr)
+require(stringr)
+require(stringi)
+require(caret)
+require(ggmap)
+
+#function definition to extract from string
+substrRight <- function(x, n){
+  substr(x, nchar(x)-n+1, nchar(x))
+}
+```
+
+
