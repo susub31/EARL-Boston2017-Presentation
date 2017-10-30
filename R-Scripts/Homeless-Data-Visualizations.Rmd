@@ -3,8 +3,9 @@ title: "Homeless Data Analysis - Insights"
 author: "Sudha Subramanian (Sparkfish)"
 date: "Oct 28, 2017"
 output:
-  pdf_document: default
+  word_document: default
   html_notebook: default
+  pdf_document: default
   html_document: default
 ---
 
@@ -28,12 +29,25 @@ substrRight <- function(x, n){
 
 ## Homelessness in United States - A Study
 
-This is an analysis on a public dataset on homelessness across United States, downloaded from HUD website. For the scripts / datasets, please visit <https://github.com/susub31/EARL-Boston2017-Presentation>.
+This is an analysis done primarily using R on a public dataset on homelessness across United States, downloaded from HUD website. For the scripts / datasets, please visit <https://github.com/susub31/EARL-Boston2017-Presentation>.
 
-Analysis revealed that Hawaii had the highest homeless ratio (number of homeless people relative to the State's population) in the country.  The number of people homeless in Hawaii may not seem like a high number compared to the number of homeless people in California or New York.  Considering the percentage of people who are homeless relative to the population in the state, it paints an alarming picture as shown below.
+When we think of Hawaii, we tend to think it is one of the most beautiful vacation spots and a must-see place in your lifetime.  And, needless to say that we know it is one of the most expensive places too.  But, did you know that in the year 2016, 7900+ were reported as homeless in the state of Hawaii? Well, the actual count of homeless people in Hawaii may not be anywhere near what it is in California or New York.  Considering the percentage of people who are homeless relative to the population in the state, Hawaii tops the list.  Yes, Hawaii has the highest homeless ratio (number of homeless people relative to the State's population) in the country.
+
+### Homeless Ration Map
+![](US_HomelessRatio_Map.png)
 
 ## Homeless Counts
 “Point-in-time” surveys are taken periodically to track counts of homeless people periodically.  This information is very useful to understand spread of homelessness across all States.  It also feeds information to the Department of Housing and Urban Development to determine funding for cities and other initiatives that need to be taken to reduce homelessness.
+
+### Datasets for this analysis:
+* Homeless Data 2016 (from HUD)
+* US States (for map)
+
+### Data Preparation:
+Data Preparatory work has already been done on the original dataset to include lat/lon details across for all counties / cities.  The saved information is used for this analysis.
+
+### Insights:
+Initial analysis done on the dataset shows different categories of homeless people such as counts of adults, veterans and youth.  This is further categorized as sheltered, unsheltered, critically homeless etc., to name a few.  The following section of code groups the counts by the state so that we can get overall homeless counts in each state across US.  We build this dataset and categorize them as 'Low', 'Medium' and 'High' based on the homeless counts.
 
 ```{r message=FALSE, warning=FALSE}
 # Read the dataset that holds Homeless Data for 2016
@@ -92,6 +106,13 @@ CountsByState$Count.Category <- ifelse(CountsByState$TotalHomeless > 20000, "HIG
 
 \newpage
 ### Density Map of Homeless Counts
+This shows the density of homelessness across the states.  As can be seen from the graph below, there are very few states with very high homeless counts - there is one state with counts around 80K (New York) and one which is over 110K (California).  Categorization is done as follows: 
+
+* States with homeless counts above 20K are categorized as "HIGH"
+* States with homeless counts above 10K and below 20K are categorized as "MEDIUM"
+* States with homeless counts below 10K are categorized as "LOW"
+
+\n 
 ```{r cache=FALSE, warning=FALSE, message=FALSE}
 ggplot(CountsByState, aes(x=TotalHomeless)) +
   geom_density() 
@@ -100,6 +121,7 @@ ggplot(CountsByState, aes(x=TotalHomeless)) +
 
 \newpage
 ### Density Map of Homeless Counts - by Category
+This graph shows a faceted view specific to each category to give an understanding of the number of states and the distribution in each of these three categories.  As you can see, there are very few states in the 'high' category.
 ```{r cache=FALSE, warning=FALSE, message=FALSE}
 ggplot(CountsByState, aes(x=TotalHomeless)) +
   geom_density() +
@@ -110,7 +132,13 @@ ggplot(CountsByState, aes(x=TotalHomeless)) +
 
 \newpage
 ### Color-coded map of Homeless Counts
-#### The homeless counts in the dataset is used to color code the US map to get an understanding of the extent of homelessness across different states.  This will be used as the base map on which the counts in individual categories (Adults, Veterans, Youth) are plotted.
+The homeless counts in the dataset is used to color code the US map to get an understanding of the extent of homelessness across different states.  This will be used as the base map on which the counts in individual categories (Adults, Veterans, Youth) are plotted.  This paints extent of homelessness across different states. 
+### Inference
+Here is what we can infer from this map: 
+* California and New York showcase the highest in that order in terms of counts of homeless people
+* There are quite a few states in the 'medium' and 'low' categories
+
+\n 
 ```{r cache=FALSE, warning=FALSE, message=FALSE}
 #Plot a blank US Map
 BlankUSMap <- ggplot()
@@ -121,7 +149,7 @@ BlankUSMap <- BlankUSMap + geom_map(data=us, map=us, aes(x=long, y=lat, map_id=r
 HomelessMap <- BlankUSMap + geom_map(data=CountsByState, map=us, 
                                 aes(fill=TotalHomeless, map_id=region), color="#ffffff", size=0.15) 
 
-HomelessMap <- HomelessMap + scale_fill_continuous(low='lightgrey', high='lightblue', guide='colorbar')
+HomelessMap <- HomelessMap + scale_fill_continuous(low='lightgrey', high='blue', guide='colorbar')
 HomelessMap <- HomelessMap + labs(x=NULL, y=NULL) + 
   theme(panel.border = element_blank()) + 
   theme(panel.background = element_blank()) +
@@ -133,7 +161,15 @@ HomelessMap
 
 \newpage
 ### Homeless Counts (Adults) - Top 100
-#### Plotting the count of homeless people (adults) for the continuums (CoC) with high counts of homelessness, paints the following picture, where size of the bubble indicates high count of homelessness.
+Plotting the count of homeless people (adults) for the top 100 continuums (CoC) with high counts of homelessness, paints the following picture, where size of the bubble indicates high count of homelessness.
+
+### Inference
+Overlaying the base map with points that correspond to size of homeless counts helps us understand where the counts are relatively higher than other places.  
+
+We can infer the following: 
+* NY and CA have the continuums with very high homeless counts
+* The number of continuums (24 out of 100) in California featuing in this notorious top 100 list shows that homelessness is spread across the entire state (from San Diego to San Francisco)
+* Likewise, Florida also has 9 continuums in the top 100 listgit
 ```{r message=FALSE, warning=FALSE, cache=FALSE}
 # select top 100 based on homeless counts - adults
 hdatatop100 <- tbl_df(subset(alldata, !((substr(alldata$CoC.Number,1,2) =="HI")) & !((substr(alldata$CoC.Number,1,2) =="PR")) )) %>%
