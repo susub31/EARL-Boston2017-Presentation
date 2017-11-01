@@ -57,18 +57,18 @@ CountsByState <- usstates %>%
 CountsByState$Count.Category <- ifelse(CountsByState$TotalHomeless > 20000, "HIGH", ifelse(CountsByState$TotalHomeless > 10000, "MEDIUM", "LOW"))
 
 # Plot a blank US map (for the presentation - EARL Boston)
-BlankUSMap <- BlankUSMap + geom_map(data=us, map=us,
-                                    aes(x=long, y=lat, map_id=region), 
-                                    fill="darkseagreen2", color="black")
+#BlankUSMap <- BlankUSMap + geom_map(data=us, map=us,
+#                                    aes(x=long, y=lat, map_id=region), 
+#                                    fill="darkseagreen2", color="black")
 
-BlankUSMap <- BlankUSMap + labs(x=NULL, y=NULL) + 
-  theme(panel.border = element_blank()) + 
-  theme(panel.background = element_blank()) +
-  theme(axis.ticks = element_blank()) + 
-  theme(axis.text = element_blank()) +
-  theme(legend.position = "none")
+#BlankUSMap <- BlankUSMap + labs(x=NULL, y=NULL) + 
+#  theme(panel.border = element_blank()) + 
+#  theme(panel.background = element_blank()) +
+#  theme(axis.ticks = element_blank()) + 
+#  theme(axis.text = element_blank()) +
+#  theme(legend.position = "none")
 
-BlankUSMap 
+#BlankUSMap 
 
 #Plot a blank US Map
 BlankUSMap <- ggplot()

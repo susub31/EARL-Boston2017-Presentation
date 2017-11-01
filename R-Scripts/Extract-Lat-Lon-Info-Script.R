@@ -57,6 +57,6 @@ for (i in 1:nrow(GrantsDSWithNAs)) {
 }
 
 GrantsDS <- rbind(GrantsDSWithoutNAs, GrantsDSWithNAs)
-write.csv(GrantsDS, "../Datasets/ESGGrantDSWithGeoCodes.csv")
+write.csv(GrantsDS, "../Datasets/GrantDSWithGeoCodes.csv")
 
 
